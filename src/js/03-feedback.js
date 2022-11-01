@@ -69,7 +69,7 @@ function cleanFormAndLocalStrg (event){
     event.preventDefault();
 
     event.target.reset();
-  
+    console.log(localStorage.getItem(KEY_OF_INPUT_LS));
     remove(KEY_OF_INPUT_LS);
 }
 
